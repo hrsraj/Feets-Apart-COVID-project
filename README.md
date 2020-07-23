@@ -5,6 +5,7 @@
 import cv2
 
 # initialize detector using cascade classifier
+# provide path to body_cascade file
 detector= cv2.CascadeClassifier("body_cascade.xml")
 
 # provide path to video file or directly set to 0 for live detection
